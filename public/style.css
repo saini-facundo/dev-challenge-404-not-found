@@ -5,18 +5,20 @@
   font-family: "Space Mono", monospace;
 }
 
-html,body {
+html,
+body {
   height: 100%;
 }
 
 body {
   margin: 0px;
-  padding: 40px 77px 0 77px;
+  padding: 0 77px;
   display: flex;
   flex-direction: column;
 }
 
 header {
+  margin-top: 40px;
   font-weight: 700;
   font-size: 24px;
 }
@@ -26,7 +28,6 @@ footer {
 }
 
 main {
-  flex: 1;
   display: flex;
   align-items: center;
 }
@@ -81,7 +82,7 @@ button {
 
 @media (max-width: 600px) {
   body {
-    padding: 24px 20px;
+    padding: 0px 24px;
   }
 
   main {
@@ -97,6 +98,7 @@ button {
 
   h1 {
     font-size: 48px;
+    margin-top: 20px;
   }
 
   .msg {
