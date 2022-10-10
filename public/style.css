@@ -5,9 +5,12 @@
   font-family: "Space Mono", monospace;
 }
 
+html,body {
+  height: 100%;
+}
+
 body {
   margin: 0px;
-  height: 100vh;
   padding: 40px 77px 0 77px;
   display: flex;
   flex-direction: column;
@@ -26,7 +29,6 @@ main {
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 section {
@@ -40,6 +42,7 @@ img {
 .img-container {
   width: 540px;
   height: fit-content;
+  margin-right: 118px;
 }
 
 h1 {
@@ -89,6 +92,7 @@ button {
     max-width: 100%;
     padding-top: 40px;
     padding-bottom: 60px;
+    margin-right: 0;
   }
 
   h1 {
